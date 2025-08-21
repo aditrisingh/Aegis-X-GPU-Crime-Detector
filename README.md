@@ -136,7 +136,7 @@ python detector/fp_32.py
 
 ## 📝 Development Journal
 
-See `docs/journal.md` for a complete log of errors, debugging steps, and solutions during development.
+See `journal.md` for a complete log of errors, debugging steps, and solutions during development.
 
 ---
 
