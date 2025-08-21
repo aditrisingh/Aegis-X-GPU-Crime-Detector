@@ -83,10 +83,10 @@ For faster inference, TensorRT engines (FP16/FP32) can be used.
 ## 🎥 Demo GIF
 
 <p align="center">
-  <img src="assets/last gif.gif" width="600" alt="Crime Detection Demo">
+  <img src="last gif.gif" width="600" alt="Crime Detection Demo">
 </p>
 
-> **Note:** Convert `.mp4` videos to `.gif` for GitHub preview.
+
 
 ---
 
