@@ -104,7 +104,7 @@ For faster inference, TensorRT engines (FP16/FP32) can be used.
 1. **Engines:** FP16/FP32 real-time inference; ONNX recommended for flexibility.  
 2. **GPU support:** Optional GPU acceleration for faster processing.  
 3. **ThreadPoolExecutor:** Parallelized frame processing for efficiency.  
-4. **Development Journal:** Notes on errors, solutions, and debugging in `docs/journal.md`.
+4. **Development Journal:** Notes on errors, solutions, and debugging in `journal.md`.
 
 ---
 
