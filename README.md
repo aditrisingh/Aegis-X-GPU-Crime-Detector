@@ -8,8 +8,9 @@
   <img src="assets/aegis x last.png" alt="Logo">
 
   <h2>Demo GIF</h2>
-  <img src="assets/last gif.mp4" alt="Demo">
-  <video controls src="assets/last gif.mp4" title="Title"></video>
+<p align="center">
+  <img src="assets/last gif.mp4" width="600" alt="Crime Detection Demo">
+</p>
 
   <h2>Features</h2>
   <ul>
