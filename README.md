@@ -106,6 +106,7 @@ For faster inference, TensorRT engines (FP16/FP32) can be used.
 3. **ThreadPoolExecutor:** Parallelized frame processing for efficiency.  
 4. **Development Journal:** Notes on errors, solutions, and debugging in `journal.md`.
 
+->Ignore these files as they are purely for understanding concepts and studying-train_ensemble.py,mc3_infer.py,trying_models.py
 ---
 
 ## 🚀 How to Run AegisX
