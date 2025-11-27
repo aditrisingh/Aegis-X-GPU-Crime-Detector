@@ -2,19 +2,19 @@
 
 **Production pipeline (main branch)**  
 → Full 2048-dim MC3-18 features + RBF SVM  
-→ **83% precision, 86% recall, 0.88 AUC** on UCF-Crime anomaly dataset  
-→ 90–120 FPS on RTX 4060 (TensorRT FP16)  
-→ Telegram alerts with screenshots
+→ **83% precision, 86% recall, 0.88 AUC** on UCF-Crime (within 4% of 2023 SOTA)  
+→ 20–40 FPS on RTX 4060  
+→ Telegram alerts with screenshots (>5s streak)
 
 <p align="center"> <img src="assets/aegis x last.png" width="180" alt="AegisX Logo"> </p>  
 <h1 align="center">🚨 AegisX: Real-time Crime Detection from CCTV Footage</h1>
 
-✨ What is AegisX?  
+✨ **What is AegisX?**  
 Lightweight, production-ready crime & anomaly detection system for CPU and GPU deployment.  
 Uses frozen MC3-18 (3D CNN) as feature extractor + SVM classifier.  
 GPU version adds TensorRT FP16/FP32 engines for massive speedups.
 
-💡 Detectable anomalies: Fighting · Robbery · Vandalism · Assault · Abuse
+💡 **Detectable anomalies:** Fighting · Robbery · Vandalism · Assault · Abuse
 
 ### 🎯 Key Features
 - Real-time inference on CPU (ONNX) and GPU (TensorRT FP16/FP32)
@@ -28,7 +28,7 @@ GPU version adds TensorRT FP16/FP32 engines for massive speedups.
 - Speed: **90–120 FPS** on RTX 4060 (TensorRT FP16)
 - Same robust pipeline as CPU repo
 
-### ⚠️ Ablation Note (pca-experiment branch)
+### ⚠️ Ablation Note (old-experiments branch)
 Early experiment with PCA (95% variance) → dropped accuracy to **~76%** for zero real speed gain.  
 Kept in separate branch as a lesson: never aggressively compress strong 3D features.
 
