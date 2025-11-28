@@ -14,7 +14,7 @@ class CrimeMLP(nn.Module):
             nn.Linear(64, 1)
         )
 
-# ← This loads the exact model that gave you 93% recall
+
 model = CrimeMLP()
 model.load_state_dict(torch.load("models/mlp_best.pth", map_location="cpu"))
 model.eval()
@@ -25,4 +25,5 @@ def is_crime(features: np.ndarray, threshold: float = 0.42) -> tuple[bool, float
         features = features.mean(axis=0)          # temporal average
     with torch.no_grad():
         prob = torch.sigmoid(model(torch.from_numpy(features).float())).item()
+
     return prob > threshold, prob
